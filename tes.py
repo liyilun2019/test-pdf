@@ -8,4 +8,5 @@ doc.packages.append(Package("graph1"))
 doc.preamble.append(Command('date'))
 with doc.create(Section('A second section')):
     doc.append('Some text.')
-doc.generate_pdf(filepath="path")
+doc.generate_tex(filepath='1.tex')
+doc.generate_pdf(filepath="1.tex")
